@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Things>
+        <Thing description="" documentationContent="&#10;" effectiveThingPackage="FileRepositoryThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2015-08-31T13:44:32.091-04:00" name="GithubFileRepo" published="false" tags="Applications:github" thingTemplate="FileRepository" valueStream="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="ExportSourceCode">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions>
+                            <FieldDefinition baseType="DATETIME" description="" name="start" ordinal="2"/>
+                            <FieldDefinition baseType="DATETIME" description="" name="end" ordinal="3"/>
+                            <FieldDefinition aspect.tagType="ModelTags" baseType="TAGS" description="" name="tags" ordinal="1"/>
+                        </ParameterDefinitions>
+                    </ServiceDefinition>
+                </ServiceDefinitions>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations>
+                    <ServiceImplementation description="" handlerName="Script" name="ExportSourceCode">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code><![CDATA[
+var params = {
+	path: "/" /* STRING */,
+	endDate: end /* DATETIME */,
+	collection: undefined /* STRING */,
+	repositoryName: me.name /* THINGNAME */,
+	startDate: start /* DATETIME */,
+	tags: tags /* TAGS */
+};
+
+// no return
+Resources["SourceControlFunctions"].ExportSourceControlledEntities(params);
+
+]]></code>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                </ServiceImplementations>
+                <Subscriptions/>
+            </ThingShape>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ImplementedShapes/>
+            <ThingProperties/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2015-08-31T12:39:08.798-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-08-31T12:40:25.118-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-08-31T12:45:09.964-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-08-31T13:43:01.515-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-08-31T13:44:32.091-04:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Thing>
+    </Things>
+</Entities>
