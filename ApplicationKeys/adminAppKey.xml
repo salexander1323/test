@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ApplicationKeys>
+        <ApplicationKey clientName="" description="" documentationContent="" homeMashup="" ipWhitelist="" keyId="9b0dc70d-9fda-43ea-a267-96d21e3a7579" lastModifiedDate="2015-08-05T14:51:27.052-04:00" name="adminAppKey" tags="" userNameReference="Administrator">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2015-08-05T14:51:27.028-04:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </ApplicationKey>
+    </ApplicationKeys>
+</Entities>
