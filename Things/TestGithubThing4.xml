@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="test" documentationContent="&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2015-08-31T13:43:19.176-04:00" name="TestGithubThing4" published="false" tags="Applications:GitHubTest" thingTemplate="TestGithubTemplate" valueStream="">
+        <Thing description="test" documentationContent="&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2015-09-08T15:13:16.008-04:00" name="TestGithubThing4" published="false" tags="Applications:GitHubTest" thingTemplate="TestGithubTemplate" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -17,7 +17,9 @@
             </VisibilityPermissions>
             <ConfigurationTables/>
             <ThingShape>
-                <PropertyDefinitions/>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="prop4" ordinal="1"/>
+                </PropertyDefinitions>
                 <ServiceDefinitions/>
                 <EventDefinitions/>
                 <ServiceMappings/>
@@ -28,12 +30,15 @@
             <RemotePropertyBindings/>
             <RemoteServiceBindings/>
             <RemoteEventBindings/>
-            <AlertConfigurations/>
+            <AlertConfigurations>
+                <AlertDefinitions name="prop4"/>
+            </AlertConfigurations>
             <ImplementedShapes/>
             <ThingProperties/>
             <ConfigurationChanges>
                 <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2015-08-31T13:37:54.932-04:00" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-08-31T13:43:19.176-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-09-08T15:13:16.008-04:00" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
