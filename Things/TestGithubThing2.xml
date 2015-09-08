@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2015-09-03T09:23:20.551-04:00" name="TestGithubThing2" published="false" tags="Applications:GitHubTest" thingTemplate="TestGithubTemplate" valueStream="">
+        <Thing description="" documentationContent="&#10;" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2015-09-08T16:22:51.587-04:00" name="TestGithubThing2" published="false" tags="Applications:GitHubTest" thingTemplate="TestGithubTemplate" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -22,10 +22,32 @@
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="teste2" ordinal="2"/>
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="test1" ordinal="1"/>
                 </PropertyDefinitions>
-                <ServiceDefinitions/>
+                <ServiceDefinitions>
+                    <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="test">
+                        <ResultType baseType="NOTHING" description="" name="result" ordinal="0"/>
+                        <ParameterDefinitions/>
+                    </ServiceDefinition>
+                </ServiceDefinitions>
                 <EventDefinitions/>
                 <ServiceMappings/>
-                <ServiceImplementations/>
+                <ServiceImplementations>
+                    <ServiceImplementation description="" handlerName="Script" name="test">
+                        <ConfigurationTables>
+                            <ConfigurationTable description="Script" isMultiRow="false" name="Script" ordinal="0">
+                                <DataShape>
+                                    <FieldDefinitions>
+                                        <FieldDefinition baseType="STRING" description="code" name="code" ordinal="0"/>
+                                    </FieldDefinitions>
+                                </DataShape>
+                                <Rows>
+                                    <Row>
+                                        <code/>
+                                    </Row>
+                                </Rows>
+                            </ConfigurationTable>
+                        </ConfigurationTables>
+                    </ServiceImplementation>
+                </ServiceImplementations>
                 <Subscriptions/>
             </ThingShape>
             <PropertyBindings/>
@@ -44,6 +66,7 @@
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-08-31T13:33:58.043-04:00" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-09-02T10:15:30.305-04:00" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-09-03T09:23:20.551-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-09-08T16:22:51.587-04:00" user="Administrator"/>
             </ConfigurationChanges>
         </Thing>
     </Things>
