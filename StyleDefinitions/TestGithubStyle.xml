@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <StyleDefinitions>
+        <StyleDefinition description="" documentationContent="" homeMashup="" lastModifiedDate="2015-09-09T12:31:51.361-04:00" name="TestGithubStyle" tags="Applications:GitHubTest">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <content><![CDATA[{"image":"","backgroundColor":"","textSize":"normal","lineStyle":"solid","displayString":"","fontEmphasisUnderline":false,"fontEmphasisItalic":false,"lineThickness":1,"foregroundColor":"","lineColor":"","fontEmphasisBold":false,"secondaryBackgroundColor":""}]]></content>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;" timestamp="2015-09-09T12:30:15.733-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2015-09-09T12:31:51.361-04:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </StyleDefinition>
+    </StyleDefinitions>
+</Entities>
