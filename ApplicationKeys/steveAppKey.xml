@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ApplicationKeys>
+        <ApplicationKey clientName="" description="" documentationContent="" homeMashup="" ipWhitelist="" keyId="d9c22436-7b40-4dab-8a3c-7fc7104eee4c" lastModifiedDate="2015-09-09T12:24:11.312-04:00" name="steveAppKey" tags="Applications:GitHubTest" userNameReference="stevea">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : userNameReference : updated, tags : updated, name : updated&#10;" timestamp="2015-09-09T12:22:02.094-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2015-09-09T12:22:53.985-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="header : tags : updated&#10;" timestamp="2015-09-09T12:24:11.312-04:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </ApplicationKey>
+    </ApplicationKeys>
+</Entities>
