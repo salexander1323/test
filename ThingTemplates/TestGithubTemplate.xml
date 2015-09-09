@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <ThingTemplates>
-        <ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2015-08-31T12:42:52.796-04:00" name="TestGithubTemplate" tags="Applications:GitHubTest" thingPackage="" valueStream="">
+        <ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;&#10;" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2015-09-09T09:08:17.115-04:00" name="TestGithubTemplate" tags="Applications:GitHubTest" thingPackage="" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -23,12 +23,14 @@
             <AlertConfigurations>
                 <AlertDefinitions name="prop2"/>
                 <AlertDefinitions name="prop1"/>
+                <AlertDefinitions name="TestProp"/>
                 <AlertDefinitions name="prop3"/>
             </AlertConfigurations>
             <ThingShape>
                 <PropertyDefinitions>
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="prop2" ordinal="2"/>
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="prop1" ordinal="1"/>
+                    <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="TestProp" ordinal="4"/>
                     <PropertyDefinition aspect.cacheTime="0.0" aspect.dataChangeType="VALUE" aspect.isLogged="false" aspect.isPersistent="false" aspect.isReadOnly="false" baseType="STRING" category="" description="" isLocalOnly="false" name="prop3" ordinal="3"/>
                 </PropertyDefinitions>
                 <ServiceDefinitions/>
@@ -53,6 +55,7 @@
             <ConfigurationChanges>
                 <ConfigurationChange changeAction="CREATE" changeReason="" timestamp="2015-08-31T12:42:33.886-04:00" user="Administrator"/>
                 <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-08-31T12:42:52.796-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2015-09-09T09:08:17.115-04:00" user="Administrator"/>
             </ConfigurationChanges>
         </ThingTemplate>
     </ThingTemplates>
