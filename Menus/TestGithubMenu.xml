@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Menus>
+        <Menu description="" documentationContent="" homeMashup="" imageURL="" lastModifiedDate="2015-09-09T12:29:53.070-04:00" menuLabel="" name="TestGithubMenu" tags="Applications:GitHubTest">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables/>
+            <MenuItems/>
+            <GroupReferences>
+                <Members/>
+            </GroupReferences>
+            <effectiveMenu>
+                <DataShape>
+                    <FieldDefinitions>
+                        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Link destination" name="linkDestination" ordinal="0"/>
+                        <FieldDefinition aspect.defaultValue="false" baseType="BOOLEAN" description="Is a default menu item" name="isDefault" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Menu entry parent id" name="parentMenuId" ordinal="0"/>
+                        <FieldDefinition baseType="IMAGELINK" description="Optional image URL" name="imageURL" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Link target (Popup, Mashup, New)" name="linkTarget" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Description for tooltip" name="description" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Menu entry id" name="menuId" ordinal="0"/>
+                        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Link type (Mashup, Hyperlink, or Menu)" name="linkType" ordinal="0"/>
+                        <FieldDefinition baseType="STRING" description="Menu entry title" name="title" ordinal="0"/>
+                    </FieldDefinitions>
+                </DataShape>
+                <Rows/>
+            </effectiveMenu>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated&#10;" timestamp="2015-09-09T12:29:53.070-04:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Menu>
+    </Menus>
+</Entities>
