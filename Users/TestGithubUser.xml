@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Users>
+        <User description="" documentationContent="" enabled="true" homeMashup="" lastModifiedDate="2015-09-09T12:32:24.172-04:00" mobileMashup="" name="TestGithubUser" passwordHash="" passwordHashAlgorithm="" passwordHashIterationCount="0" passwordHashSaltSizeInBytes="0" passwordHashSizeInBytes="0" tags="Applications:GitHubTest">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="UserExtensions" isMultiRow="false" name="UserExtensions" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="First name" isLocalOnly="false" name="firstName" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Last name" isLocalOnly="false" name="lastName" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="E-mail address" isLocalOnly="false" name="emailAddress" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="SMS address" isLocalOnly="false" name="smsAddress" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Mobile phone" isLocalOnly="false" name="mobilePhone" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Home phone" isLocalOnly="false" name="homePhone" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Middle name" isLocalOnly="false" name="middleName" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Work phone" isLocalOnly="false" name="workPhone" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPersistent="true" baseType="STRING" category="" description="Title" isLocalOnly="false" name="title" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <firstName/>
+                            <lastName/>
+                            <emailAddress/>
+                            <smsAddress/>
+                            <mobilePhone/>
+                            <homePhone/>
+                            <middleName/>
+                            <workPhone/>
+                            <title/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+                <ConfigurationTable description="Settings" isMultiRow="false" name="Settings" ordinal="2">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPrimaryKey="true" baseType="STRING" description="Primary language" name="language" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <language/>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <PersistentValues/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, tags : updated&#10;" timestamp="2015-09-09T12:32:24.172-04:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </User>
+    </Users>
+</Entities>
