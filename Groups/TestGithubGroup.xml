@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Groups>
-        <Group description="" documentationContent="" homeMashup="" lastModifiedDate="2015-09-09T12:32:10.893-04:00" name="TestGithubGroup" tags="Applications:GitHubTest">
+        <Group description="" documentationContent="" homeMashup="" lastModifiedDate="2015-09-10T14:47:14.766-04:00" name="TestGithubGroup" tags="Applications:GitHubTest;Version:1.0.0.3">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
