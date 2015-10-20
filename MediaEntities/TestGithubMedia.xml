@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <MediaEntities>
-        <MediaEntity description="" documentationContent="" homeMashup="" lastModifiedDate="2015-09-09T12:30:06.296-04:00" name="TestGithubMedia" tags="Applications:GitHubTest">
+        <MediaEntity description="" documentationContent="" homeMashup="" lastModifiedDate="2015-09-09T12:30:06.296-04:00" name="TestGithubMedia" tags="Applications:GitHubTest;Version:1.0.0.3">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
