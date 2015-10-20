@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <ThingTemplates>
-        <ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;&#10;" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2015-09-09T10:01:58.915-04:00" name="TestGithubTemplate" tags="Applications:GitHubTest" thingPackage="" valueStream="">
+        <ThingTemplate baseThingTemplate="GenericThing" description="" documentationContent="&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#10;&#10;" effectiveThingPackage="ConfiguredThing" homeMashup="" lastModifiedDate="2015-09-09T10:01:58.915-04:00" name="TestGithubTemplate" tags="Applications:GitHubTest;Version:1.0.0.3" thingPackage="" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
