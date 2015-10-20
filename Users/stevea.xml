@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Users>
-        <User description="" documentationContent="" enabled="true" homeMashup="" lastModifiedDate="2015-09-09T12:21:45.943-04:00" mobileMashup="" name="stevea" passwordHash="100000:b4b45e5e8c60b7b7d35f5b3c49e22de22f62ff6fef9aaf09e7e8c8ee1785f7e57adeb3cf34cc91b26307ea5dae7559f84d1fcb421e7359ce415706fb025b423b:e54fe59a9bf4f573b03fb5ce8f132a91582a11f142429a0fd722409849bb1ceb5d428de3937ff78a7b13eed32ade79e246b8bd512ecedd9b47e6df53a2110cd2" passwordHashAlgorithm="PBKDF2WithHmacSHA512" passwordHashIterationCount="100000" passwordHashSaltSizeInBytes="64" passwordHashSizeInBytes="64" tags="Applications:GitHubTest">
+        <User description="" documentationContent="" enabled="true" homeMashup="" lastModifiedDate="2015-09-09T12:21:45.943-04:00" mobileMashup="" name="stevea" passwordHash="100000:b4b45e5e8c60b7b7d35f5b3c49e22de22f62ff6fef9aaf09e7e8c8ee1785f7e57adeb3cf34cc91b26307ea5dae7559f84d1fcb421e7359ce415706fb025b423b:e54fe59a9bf4f573b03fb5ce8f132a91582a11f142429a0fd722409849bb1ceb5d428de3937ff78a7b13eed32ade79e246b8bd512ecedd9b47e6df53a2110cd2" passwordHashAlgorithm="PBKDF2WithHmacSHA512" passwordHashIterationCount="100000" passwordHashSaltSizeInBytes="64" passwordHashSizeInBytes="64" tags="Applications:GitHubTest;Version:1.0.0.3">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
