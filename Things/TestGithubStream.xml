@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Things>
-        <Thing description="" documentationContent="&#10;" effectiveThingPackage="StreamThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2015-09-09T12:31:33.873-04:00" name="TestGithubStream" published="false" tags="Applications:GitHubTest" thingTemplate="Stream" valueStream="">
+        <Thing description="" documentationContent="&#10;" effectiveThingPackage="StreamThing" enabled="true" homeMashup="" identifier="" lastModifiedDate="2015-09-09T12:31:33.873-04:00" name="TestGithubStream" published="false" tags="Applications:GitHubTest;Version:1.0.0.3" thingTemplate="Stream" valueStream="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
