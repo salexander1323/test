@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <Users>
-        <User description="" documentationContent="" enabled="true" homeMashup="" lastModifiedDate="2015-09-09T12:32:24.172-04:00" mobileMashup="" name="TestGithubUser" passwordHash="" passwordHashAlgorithm="" passwordHashIterationCount="0" passwordHashSaltSizeInBytes="0" passwordHashSizeInBytes="0" tags="Applications:GitHubTest">
+        <User description="" documentationContent="" enabled="true" homeMashup="" lastModifiedDate="2015-09-09T12:32:24.172-04:00" mobileMashup="" name="TestGithubUser" passwordHash="" passwordHashAlgorithm="" passwordHashIterationCount="0" passwordHashSaltSizeInBytes="0" passwordHashSizeInBytes="0" tags="Applications:GitHubTest;Version:1.0.0.3">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
