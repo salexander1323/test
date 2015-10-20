@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <ApplicationKeys>
-        <ApplicationKey clientName="" description="" documentationContent="" homeMashup="" ipWhitelist="" keyId="fb6592a4-bdc3-4bab-b876-002f957d5638" lastModifiedDate="2015-09-09T12:33:04.863-04:00" name="TestGithubAppKey" tags="Applications:GitHubTest" userNameReference="TestGithubUser">
+        <ApplicationKey clientName="" description="" documentationContent="" homeMashup="" ipWhitelist="" keyId="fb6592a4-bdc3-4bab-b876-002f957d5638" lastModifiedDate="2015-09-09T12:33:04.863-04:00" name="TestGithubAppKey" tags="Applications:GitHubTest;Version:1.0.0.3" userNameReference="TestGithubUser">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
