@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities>
     <DataShapes>
-        <DataShape baseDataShape="" description="" documentationContent="&#10;" homeMashup="" lastModifiedDate="2015-09-09T12:27:57.457-04:00" name="TestGithubDataShape" tags="Applications:GitHubTest">
+        <DataShape baseDataShape="" description="" documentationContent="&#10;" homeMashup="" lastModifiedDate="2015-09-09T12:27:57.457-04:00" name="TestGithubDataShape" tags="Applications:GitHubTest;Version:1.0.0.3">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
